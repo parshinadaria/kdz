@@ -1,0 +1,33 @@
+﻿<UserControl x:Class="Информационно_справочная_система.UserControlPattern"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Информационно_справочная_система"
+             mc:Ignorable="d" 
+             d:DesignHeight="250" d:DesignWidth="300">
+    <Grid >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="35"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Label Name="label" Content="" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="20" Background="#FFD8EAFD"/>
+        <Image Grid.Row="1" Name="image" MouseEnter="canvas_MouseEnter"/>
+
+
+
+        <!--<Image Grid.Row="1" Source="../../Images/canon1300D.jpg"/>
+        <Image.ToolTip>
+            <ToolTip Name="tooltip" Content="" Foreground="Aqua" HasDropShadow="False"/>
+            --><!--<StackPanel Name="tip" Background="MediumBlue"/>-->
+                 
+                <!--<TextBlock> Country: Japan</TextBlock>
+            <TextBlock>Price:</TextBlock>
+            <TextBlock>Weight:</TextBlock>
+            <TextBlock>Company:</TextBlock>-->
+
+            <!--</ToolTip>--><!--
+        </Image.ToolTip>-->
+
+    </Grid>
+</UserControl>

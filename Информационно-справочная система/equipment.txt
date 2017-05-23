@@ -1,0 +1,5 @@
+﻿Camera 20,500 700 Japan Canon 60D ../../extraimages/canon80D.jpg 18,2 1,6 MOV 
+Camera 20,500 700 Japan Sony 60D ../../extraimages/canon80D.jpg 18,2 1,6 MOV 
+Camera 70,300 474 Japan Sony AlphaA7 ../../extraimages/canon80D.jpg 24,7 1 MP4
+Camera 50,000 496 Japan Olympus OM-DE-M5mark2 ../../extraimages/canon80D.jpg 17,2 2 MOV
+Lens 16,000 240 Japan Canon EF-S ../../extraimages/canon80D.jpg 10-18 4,5

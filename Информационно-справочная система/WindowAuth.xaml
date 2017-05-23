@@ -1,0 +1,23 @@
+﻿<Window x:Class="Информационно_справочная_система.WindowAuth"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Информационно_справочная_система"
+        mc:Ignorable="d"
+        Title="WindowAuth" Height="300" Width="450">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+        <Label Content="Enter login" HorizontalContentAlignment="Center" FontSize="25" Background="#FF6391BF"/>
+        <TextBox Name="textBoxLogin" Grid.Row="1" Margin="5" HorizontalContentAlignment="Center" FontSize="25" Background="#FFB7CFE8"/>
+        <Label Content="Enter password" Grid.Row="2" HorizontalContentAlignment="Center" FontSize="25" Background="#FF6391BF"/>
+        <TextBox Name="textBoxPassword" Grid.Row="3" Margin="5" HorizontalContentAlignment="Center" FontSize="25" Background="#FFB7CFE8"/>
+        <Button Grid.Row="5" Margin="170,7" HorizontalContentAlignment="Center" Content="Sign in" Click="ButtonSignInClick" Background="#FF78BBFF"/>
+    </Grid>
+</Window>

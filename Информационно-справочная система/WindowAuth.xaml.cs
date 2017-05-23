@@ -28,10 +28,40 @@ namespace Информационно_справочная_система
 
         private void ButtonSignInClick(object sender, RoutedEventArgs e)
         {
+            //string login = textBoxLogin.Text;
+            //string password = passwordBox.Password;
+            //if (login == "guest")
+            //{
+            //    if (password == "1234")
+            //    {
+            //        MainWindow M = new MainWindow(false);
+            //        M.Show();
+            //        this.Close();
+            //    }
+            //    else
+            //    {
+            //        MessageBox.Show("Wrong password", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            //    }
+            //}
+            //else if (login == "admin")
+            //{
+            //    if (password == "12345")
+            //    {
+            //        MainWindow M = new MainWindow(true);
+            //        M.Show();
+            //        this.Close();
+            //    }
+            //}
+            //else
+            //{
+            //    MessageBox.Show("Wrong login");
+            //}
+
+
             Check_Auth c = new Check_Auth();
             if (!string.IsNullOrEmpty(textBoxLogin.Text))
             {
-                string response = c.checkAuth(textBoxLogin.Text, textBoxPassword.Text);
+                string response = c.checkAuth(textBoxLogin.Text, passwordBox.Password);
                 if (!response.Equals("OK"))
                 {
                     MessageBox.Show(response);
@@ -40,9 +70,36 @@ namespace Информационно_справочная_система
                 {
                     try
                     {
-                        MainWindow M = new MainWindow();
-                        M.Show();
-                        this.Close();
+                        if (textBoxLogin.Text == "guest")
+                        {
+                            if (passwordBox.Password == "1234")
+                            {
+                                MainWindow M = new MainWindow(false);
+                                M.Show();
+                                this.Close();
+                            }
+                            //else
+                            //{
+                            //    MessageBox.Show("Wrong password", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                            //}
+                        }
+                        else if (textBoxLogin.Text == "admin")
+                        {
+                            if (passwordBox.Password == "12345")
+                            {
+                                MainWindow M = new MainWindow(true);
+                                M.Show();
+                                this.Close();
+                            }
+                        }
+                        //else
+                        //{
+                        //    MessageBox.Show("Wrong login");
+                        //}
+
+                        //MainWindow M = new MainWindow();
+                        // M.Show();
+                        //this.Close();
                     }
                     catch (FormatException)
                     {

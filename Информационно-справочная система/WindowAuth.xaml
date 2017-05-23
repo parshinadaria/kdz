@@ -17,7 +17,7 @@
         <Label Content="Enter login" HorizontalContentAlignment="Center" FontSize="25" Background="#FF6391BF"/>
         <TextBox Name="textBoxLogin" Grid.Row="1" Margin="5" HorizontalContentAlignment="Center" FontSize="25" Background="#FFB7CFE8"/>
         <Label Content="Enter password" Grid.Row="2" HorizontalContentAlignment="Center" FontSize="25" Background="#FF6391BF"/>
-        <TextBox Name="textBoxPassword" Grid.Row="3" Margin="5" HorizontalContentAlignment="Center" FontSize="25" Background="#FFB7CFE8"/>
+        <PasswordBox Name="passwordBox" Password=" " Grid.Row="3" Margin="5" HorizontalContentAlignment="Center" FontSize="25" Background="#FFB7CFE8"/>
         <Button Grid.Row="5" Margin="170,7" HorizontalContentAlignment="Center" Content="Sign in" Click="ButtonSignInClick" Background="#FF78BBFF"/>
     </Grid>
 </Window>

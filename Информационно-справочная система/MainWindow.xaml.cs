@@ -22,11 +22,13 @@ namespace Информационно_справочная_система
     
     public partial class MainWindow : Window
     {
-        Repository r; 
-        public MainWindow()
+        Repository r;
+        private bool admin;
+        public MainWindow(bool admin)//
         {
            
             r = new Repository();
+            this.admin = admin;//
             InitializeComponent();
            
         }
@@ -63,18 +65,30 @@ namespace Информационно_справочная_система
 
         private void ButtonDelete(object sender, RoutedEventArgs e)
         {
+            if (admin == false)
+            {
+                MessageBox.Show("Guest can not delete any data, log in as an admin");
+                return;
+            }
+
             Delete del = new Delete(r);
             del.WindowStartupLocation = System.Windows.WindowStartupLocation.CenterScreen;
             del.ShowDialog();
             if (del.DialogResult == true)
             {
                 listBoxInfo.Items.Clear();
-                listBoxInfo.Items.Add("New item has been deleted successfully");
+                listBoxInfo.Items.Add("Item has been deleted successfully");
             }
         }
 
         private void ButtonAdd(object sender, RoutedEventArgs e)
         {
+            if (admin == false)
+            {
+                MessageBox.Show("Guest can not add data");
+                return;
+            }
+
             Add add = new Add(r);
             add.WindowStartupLocation = System.Windows.WindowStartupLocation.CenterScreen;
             add.Show();

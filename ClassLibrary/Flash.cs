@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary
 {
-    public class Flash:FotoEquipment
+    public class Flash: FotoEquipment//дочерний класс, содержит специфический характеристики вспышек
     {
         private int guidenumber;
 
@@ -28,7 +28,7 @@ namespace ClassLibrary
             rotationangle = Rotationangle;
         }
 
-        public override string Info()
+        public override string Info()//переопределение информации об объекте
         {
             return base.Info() + $"Guide number: {guidenumber} \rRotation angle: {guidenumber}°";
         }

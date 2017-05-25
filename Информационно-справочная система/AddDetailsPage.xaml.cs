@@ -19,13 +19,13 @@ namespace Информационно_справочная_система
     /// <summary>
     /// Interaction logic for AddDetailsPage.xaml
     /// </summary>
-    public partial class AddDetailsPage : Page
+    public partial class AddDetailsPage : Page//страница добавления более детальной информации
     {
-        Repository r= new Repository();
+        Repository r= MainWindow.r;
 
         public static string type = AddPage.arr[0];
 
-        public void VisibilityCamera()
+        public void VisibilityCamera()//метод для скрытия полей, не актуальных данному элементу
         {
             zoom.Visibility = Visibility.Collapsed;
             zoomtext.IsEnabled = false;
@@ -41,7 +41,7 @@ namespace Информационно_справочная_система
             rotationangletext.Visibility = Visibility.Collapsed;
         }
 
-        public void VisibilityLens()
+        public void VisibilityLens()//метод для скрытия полей, не актуальных данному элементу
         {
             pixels.Visibility = Visibility.Collapsed;
             pixelstext.IsEnabled = false;
@@ -60,7 +60,7 @@ namespace Информационно_справочная_система
             rotationangletext.Visibility = Visibility.Collapsed;
         }
 
-        public void VisibilityFlash()
+        public void VisibilityFlash()//метод для скрытия полей, не актуальных данному элементу
         {
             pixels.Visibility = Visibility.Collapsed;
             pixelstext.IsEnabled = false;
@@ -89,7 +89,7 @@ namespace Информационно_справочная_система
             if (type == "Flash") VisibilityFlash();
         }
 
-        private void create_Click(object sender, RoutedEventArgs e)
+        private void create_Click(object sender, RoutedEventArgs e)//считывание полей 
         {
             if (type == "Camera")
             {
@@ -111,8 +111,12 @@ namespace Информационно_справочная_система
                 for (int i = 0; i < 2; i++)
                     AddPage.arr[i + 7] = ind[i].Text;
             }
-            
+
+            try
+            {
                 Create();
+            }
+            catch { MessageBox.Show("The format of one(or more) of the fields is incorrect.\rPlease, try again using the help button to see the example"); }//сообщение при некорректном вводе
            
             
         }
@@ -120,7 +124,7 @@ namespace Информационно_справочная_система
 
         public FotoEquipment f;
 
-        public void Create()
+        public void Create()// формирование нового объекта
         {
             if (type == "Camera")
             {
@@ -139,8 +143,13 @@ namespace Информационно_справочная_система
             MainWindow.story+= $"Added: {f.ToString()} {f.Company} {f.Model}\r";
             add.Close();
         }
-        
-        //открыть main window
+
+        private void help1_Click(object sender, RoutedEventArgs e)
+        {
+            string example = "   CameraSample:\rPixels: 17.2\rCrop factor: 1.6\rVideo format: MOV\r   LensSample:\rZoom: 18-200\rAperture: 3.5\r   FlashSample:\rGuide number: 22\rRotation angle: 90";
+            MessageBox.Show(example);
+        }
+
     }
 }
 

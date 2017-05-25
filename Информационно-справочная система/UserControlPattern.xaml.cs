@@ -19,7 +19,7 @@ namespace Информационно_справочная_система
     /// <summary>
     /// Interaction logic for UserControlPattern.xaml
     /// </summary>
-    public partial class UserControlPattern : UserControl
+    public partial class UserControlPattern : UserControl//шаблон для отображения объектов
     {
         ToolTip objinfo = new ToolTip();
 
@@ -30,9 +30,12 @@ namespace Информационно_справочная_система
         {
             InitializeComponent();
             this.label.Content = f.Company + " " + f.Model;
-
-            BitmapImage b = new BitmapImage(new Uri(System.IO.Path.Combine(Environment.CurrentDirectory, f.Photo)));
-            image.Source = b;
+            try
+            {
+                BitmapImage b = new BitmapImage(new Uri(System.IO.Path.Combine(Environment.CurrentDirectory, f.Photo)));
+                image.Source = b;
+            }
+            catch { MessageBox.Show("Image does not exist"); }
 
             objinfo.Content = f.Info();
             image.ToolTip = objinfo;

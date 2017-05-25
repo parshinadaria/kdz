@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary
 {
-    public class Lens:FotoEquipment
+    public class Lens: FotoEquipment//дочерний класс, содержит специфический характеристики объективов
     {
         private string zoom;
 
@@ -28,7 +28,7 @@ namespace ClassLibrary
             aperture = Aperture;
         }
 
-        public override string Info()
+        public override string Info()//переопределение информации об объекте
         {
             return base.Info() + $"Zoom: x{zoom}\rAperture: {aperture}";
         }

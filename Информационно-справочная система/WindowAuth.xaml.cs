@@ -19,7 +19,7 @@ namespace Информационно_справочная_система
     /// <summary>
     /// Interaction logic for WindowAuth.xaml
     /// </summary>
-    public partial class WindowAuth : Window
+    public partial class WindowAuth : Window//окно авторизации
     {
         public WindowAuth()
         {
@@ -27,7 +27,7 @@ namespace Информационно_справочная_система
             textBoxLogin.Focus();
         }
 
-        private void ButtonSignInClick(object sender, RoutedEventArgs e)
+        private void ButtonSignInClick(object sender, RoutedEventArgs e)//авторизация по известным логину и пароль гостя и адмиинистратора
         {
 
             try
@@ -66,7 +66,7 @@ namespace Информационно_справочная_система
 
         }
 
-        private void TextBox_KeyDown(object sender, KeyEventArgs e)
+        private void TextBox_KeyDown(object sender, KeyEventArgs e)//считывание логина и пароля по нажатию enter
         {
             if (e.Key == Key.Enter)
             {

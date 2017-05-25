@@ -1,0 +1,96 @@
+C:\Олеся\Visual Studio\Информационно-справочная система\Информационно-справочная система\bin\Debug\Информационно-справочная система.exe.config
+\\Mac\Home\Desktop\Информационно-справочная система\Информационно-справочная система\bin\Debug\Информационно-справочная система.exe.config
+\\Mac\Home\Desktop\Информационно-справочная система2\Информационно-справочная система\bin\Debug\Информационно-справочная система.exe.config
+\\Mac\Home\Desktop\Информационно-справочная система2\Информационно-справочная система\obj\Debug\Информационно-справочная система.csprojResolveAssemblyReference.cache
+\\Mac\Home\Desktop\Информационно-справочная система2\Информационно-справочная система\obj\Debug\MainWindow.g.cs
+\\Mac\Home\Desktop\Информационно-справочная система2\Информационно-справочная система\obj\Debug\WindowAuth.g.cs
+\\Mac\Home\Desktop\Информационно-справочная система2\Информационно-справочная система\obj\Debug\App.g.cs
+\\Mac\Home\Desktop\Информационно-справочная система2\Информационно-справочная система\obj\Debug\Информационно-справочная система_MarkupCompile.cache
+\\Mac\Home\Desktop\Информационно-справочная система2\Информационно-справочная система\obj\Debug\Информационно-справочная система_MarkupCompile.lref
+\\Mac\Home\Desktop\Информационно-справочная система2\Информационно-справочная система\bin\Debug\Информационно-справочная система.exe
+\\Mac\Home\Desktop\Информационно-справочная система2\Информационно-справочная система\bin\Debug\Информационно-справочная система.pdb
+\\Mac\Home\Desktop\Информационно-справочная система2\Информационно-справочная система\bin\Debug\ClassLibrary.dll
+\\Mac\Home\Desktop\Информационно-справочная система2\Информационно-справочная система\bin\Debug\ClassLibrary.pdb
+\\Mac\Home\Desktop\Информационно-справочная система2\Информационно-справочная система\obj\Debug\MainWindow.baml
+\\Mac\Home\Desktop\Информационно-справочная система2\Информационно-справочная система\obj\Debug\WindowAuth.baml
+\\Mac\Home\Desktop\Информационно-справочная система2\Информационно-справочная система\obj\Debug\Информационно-справочная система.g.resources
+\\Mac\Home\Desktop\Информационно-справочная система2\Информационно-справочная система\obj\Debug\Информационно_справочная_система.Properties.Resources.resources
+\\Mac\Home\Desktop\Информационно-справочная система2\Информационно-справочная система\obj\Debug\Информационно-справочная система.csproj.GenerateResource.Cache
+\\Mac\Home\Desktop\Информационно-справочная система2\Информационно-справочная система\obj\Debug\Информационно-справочная система.exe
+\\Mac\Home\Desktop\Информационно-справочная система2\Информационно-справочная система\obj\Debug\Информационно-справочная система.pdb
+\\Mac\Home\Desktop\Информационно-справочная система2\Информационно-справочная система\obj\Debug\UserControlItems.g.cs
+\\Mac\Home\Desktop\Информационно-справочная система2\Информационно-справочная система\obj\Debug\UserControlPattern.g.cs
+\\Mac\Home\Desktop\Информационно-справочная система2\Информационно-справочная система\bin\Debug\Newtonsoft.Json.dll
+\\Mac\Home\Desktop\Информационно-справочная система2\Информационно-справочная система\bin\Debug\Newtonsoft.Json.xml
+\\Mac\Home\Desktop\Информационно-справочная система2\Информационно-справочная система\obj\Debug\UserControlItems.baml
+\\Mac\Home\Desktop\Информационно-справочная система2\Информационно-справочная система\obj\Debug\UserControlPattern.baml
+\\Mac\Home\Desktop\Информационно-справочная система2\Информационно-справочная система\obj\Debug\Search.g.cs
+\\Mac\Home\Desktop\Информационно-справочная система2\Информационно-справочная система\obj\Debug\Search.baml
+\\Mac\Home\Desktop\Информационно-справочная система2\Информационно-справочная система\obj\Debug\Add.g.cs
+\\Mac\Home\Desktop\Информационно-справочная система2\Информационно-справочная система\obj\Debug\Delete.g.cs
+\\Mac\Home\Desktop\Информационно-справочная система2\Информационно-справочная система\obj\Debug\Add.baml
+\\Mac\Home\Desktop\Информационно-справочная система2\Информационно-справочная система\obj\Debug\Delete.baml
+C:\kdz\Информационно-справочная система2\Информационно-справочная система\bin\Debug\Информационно-справочная система.exe.config
+C:\kdz\Информационно-справочная система2\Информационно-справочная система\obj\Debug\Информационно-справочная система.exe
+C:\kdz\Информационно-справочная система2\Информационно-справочная система\obj\Debug\Информационно-справочная система.pdb
+C:\kdz\Информационно-справочная система2\Информационно-справочная система\bin\Debug\Информационно-справочная система.exe
+C:\kdz\Информационно-справочная система2\Информационно-справочная система\bin\Debug\Информационно-справочная система.pdb
+C:\kdz\Информационно-справочная система2\Информационно-справочная система\bin\Debug\ClassLibrary.dll
+C:\kdz\Информационно-справочная система2\Информационно-справочная система\bin\Debug\Newtonsoft.Json.dll
+C:\kdz\Информационно-справочная система2\Информационно-справочная система\bin\Debug\ClassLibrary.pdb
+C:\kdz\Информационно-справочная система2\Информационно-справочная система\bin\Debug\Newtonsoft.Json.xml
+C:\kdz\Информационно-справочная система2\Информационно-справочная система\obj\Debug\Информационно-справочная система.csprojResolveAssemblyReference.cache
+C:\kdz\Информационно-справочная система2\Информационно-справочная система\obj\Debug\Add.g.cs
+C:\kdz\Информационно-справочная система2\Информационно-справочная система\obj\Debug\Delete.g.cs
+C:\kdz\Информационно-справочная система2\Информационно-справочная система\obj\Debug\MainWindow.g.cs
+C:\kdz\Информационно-справочная система2\Информационно-справочная система\obj\Debug\Search.g.cs
+C:\kdz\Информационно-справочная система2\Информационно-справочная система\obj\Debug\UserControlItems.g.cs
+C:\kdz\Информационно-справочная система2\Информационно-справочная система\obj\Debug\UserControlPattern.g.cs
+C:\kdz\Информационно-справочная система2\Информационно-справочная система\obj\Debug\WindowAuth.g.cs
+C:\kdz\Информационно-справочная система2\Информационно-справочная система\obj\Debug\App.g.cs
+C:\kdz\Информационно-справочная система2\Информационно-справочная система\obj\Debug\Информационно-справочная система_MarkupCompile.cache
+C:\kdz\Информационно-справочная система2\Информационно-справочная система\obj\Debug\Информационно-справочная система_MarkupCompile.lref
+C:\kdz\Информационно-справочная система2\Информационно-справочная система\obj\Debug\Add.baml
+C:\kdz\Информационно-справочная система2\Информационно-справочная система\obj\Debug\Delete.baml
+C:\kdz\Информационно-справочная система2\Информационно-справочная система\obj\Debug\MainWindow.baml
+C:\kdz\Информационно-справочная система2\Информационно-справочная система\obj\Debug\Search.baml
+C:\kdz\Информационно-справочная система2\Информационно-справочная система\obj\Debug\UserControlItems.baml
+C:\kdz\Информационно-справочная система2\Информационно-справочная система\obj\Debug\UserControlPattern.baml
+C:\kdz\Информационно-справочная система2\Информационно-справочная система\obj\Debug\WindowAuth.baml
+C:\kdz\Информационно-справочная система2\Информационно-справочная система\obj\Debug\Информационно-справочная система.g.resources
+C:\kdz\Информационно-справочная система2\Информационно-справочная система\obj\Debug\Информационно_справочная_система.Properties.Resources.resources
+C:\kdz\Информационно-справочная система2\Информационно-справочная система\obj\Debug\Информационно-справочная система.csproj.GenerateResource.Cache
+C:\kdz\Информационно-справочная система2\Информационно-справочная система\obj\Debug\UserControlAdd.g.cs
+C:\kdz\Информационно-справочная система2\Информационно-справочная система\obj\Debug\UserControlAdd.baml
+C:\Users\dariaparshina\Source\Repos\kdz\Информационно-справочная система\bin\Debug\Информационно-справочная система.exe.config
+C:\Users\dariaparshina\Source\Repos\kdz\Информационно-справочная система\obj\Debug\Информационно-справочная система.exe
+C:\Users\dariaparshina\Source\Repos\kdz\Информационно-справочная система\obj\Debug\Информационно-справочная система.pdb
+C:\Users\dariaparshina\Source\Repos\kdz\Информационно-справочная система\obj\Debug\Информационно-справочная система.csprojResolveAssemblyReference.cache
+C:\Users\dariaparshina\Source\Repos\kdz\Информационно-справочная система\obj\Debug\Add.g.cs
+C:\Users\dariaparshina\Source\Repos\kdz\Информационно-справочная система\obj\Debug\Delete.g.cs
+C:\Users\dariaparshina\Source\Repos\kdz\Информационно-справочная система\obj\Debug\MainWindow.g.cs
+C:\Users\dariaparshina\Source\Repos\kdz\Информационно-справочная система\obj\Debug\Search.g.cs
+C:\Users\dariaparshina\Source\Repos\kdz\Информационно-справочная система\obj\Debug\UserControlItems.g.cs
+C:\Users\dariaparshina\Source\Repos\kdz\Информационно-справочная система\obj\Debug\UserControlPattern.g.cs
+C:\Users\dariaparshina\Source\Repos\kdz\Информационно-справочная система\obj\Debug\WindowAuth.g.cs
+C:\Users\dariaparshina\Source\Repos\kdz\Информационно-справочная система\obj\Debug\App.g.cs
+C:\Users\dariaparshina\Source\Repos\kdz\Информационно-справочная система\obj\Debug\Информационно-справочная система_MarkupCompile.cache
+C:\Users\dariaparshina\Source\Repos\kdz\Информационно-справочная система\obj\Debug\Информационно-справочная система_MarkupCompile.lref
+C:\Users\dariaparshina\Source\Repos\kdz\Информационно-справочная система\bin\Debug\Информационно-справочная система.exe
+C:\Users\dariaparshina\Source\Repos\kdz\Информационно-справочная система\bin\Debug\Информационно-справочная система.pdb
+C:\Users\dariaparshina\Source\Repos\kdz\Информационно-справочная система\bin\Debug\ClassLibrary.dll
+C:\Users\dariaparshina\Source\Repos\kdz\Информационно-справочная система\bin\Debug\Newtonsoft.Json.dll
+C:\Users\dariaparshina\Source\Repos\kdz\Информационно-справочная система\bin\Debug\ClassLibrary.pdb
+C:\Users\dariaparshina\Source\Repos\kdz\Информационно-справочная система\bin\Debug\Newtonsoft.Json.xml
+C:\Users\dariaparshina\Source\Repos\kdz\Информационно-справочная система\obj\Debug\Add.baml
+C:\Users\dariaparshina\Source\Repos\kdz\Информационно-справочная система\obj\Debug\Delete.baml
+C:\Users\dariaparshina\Source\Repos\kdz\Информационно-справочная система\obj\Debug\MainWindow.baml
+C:\Users\dariaparshina\Source\Repos\kdz\Информационно-справочная система\obj\Debug\Search.baml
+C:\Users\dariaparshina\Source\Repos\kdz\Информационно-справочная система\obj\Debug\UserControlItems.baml
+C:\Users\dariaparshina\Source\Repos\kdz\Информационно-справочная система\obj\Debug\UserControlPattern.baml
+C:\Users\dariaparshina\Source\Repos\kdz\Информационно-справочная система\obj\Debug\WindowAuth.baml
+C:\Users\dariaparshina\Source\Repos\kdz\Информационно-справочная система\obj\Debug\Информационно-справочная система.g.resources
+C:\Users\dariaparshina\Source\Repos\kdz\Информационно-справочная система\obj\Debug\AddDetailsPage.g.cs
+C:\Users\dariaparshina\Source\Repos\kdz\Информационно-справочная система\obj\Debug\AddPage.g.cs
+C:\Users\dariaparshina\Source\Repos\kdz\Информационно-справочная система\obj\Debug\AddDetailsPage.baml
+C:\Users\dariaparshina\Source\Repos\kdz\Информационно-справочная система\obj\Debug\AddPage.baml

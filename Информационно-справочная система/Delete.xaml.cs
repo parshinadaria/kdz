@@ -22,7 +22,7 @@ namespace Информационно_справочная_система
     public partial class Delete : Window
     {
         Repository r;
-        public Delete(Repository r)
+        public Delete(Repository r)//удаление объекта из репозитория по введенным данным о марке и модели
         {
             this.r = r;
             InitializeComponent();

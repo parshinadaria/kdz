@@ -27,7 +27,7 @@ namespace Информационно_справочная_система
         public static bool isLens = false;
         public static bool isFlash = false;
         public static string story;
-        Repository r = new Repository();
+        public static Repository r = new Repository();
         private bool admin;
         public MainWindow(bool admin)
         {
@@ -44,26 +44,26 @@ namespace Информационно_справочная_система
             contentControl.Content = new UserControlItems(r.ListFotoEquipment.Where(ee => ee is Camera).ToList());
         }
 
-        private void ButtonCamera(object sender, RoutedEventArgs e)
+        private void ButtonCamera(object sender, RoutedEventArgs e)//загрузка камер
         {
 
             contentControl.Content = new UserControlItems(r.ListFotoEquipment.Where(ee => ee is Camera).ToList());
             isCamera = true; isLens = false; isFlash = false;
         }
 
-        private void ButtonLens(object sender, RoutedEventArgs e)
+        private void ButtonLens(object sender, RoutedEventArgs e)//загрузка объективов
         {
             contentControl.Content = new UserControlItems(r.ListFotoEquipment.Where(ee => ee is Lens).ToList());
             isCamera = false; isLens = true; isFlash = false;
         }
 
-        private void ButtonFlash(object sender, RoutedEventArgs e)
+        private void ButtonFlash(object sender, RoutedEventArgs e)//загрузка вспышек
         {
             contentControl.Content = new UserControlItems(r.ListFotoEquipment.Where(ee => ee is Flash).ToList());
             isCamera = false; isLens = false; isFlash = true;
         }
 
-        private void ButtonSearch(object sender, RoutedEventArgs e)
+        private void ButtonSearch(object sender, RoutedEventArgs e)//метод поиска по имеющимся элементам
         {
             Search search = new Search(r);
             search.ShowDialog();
@@ -93,7 +93,7 @@ namespace Информационно_справочная_система
             if (isFlash == true) { contentControl.Content = new UserControlItems(r.ListFotoEquipment.Where(ee => ee is Flash).ToList()); }
         }
 
-        private void ButtonAdd(object sender, RoutedEventArgs e)
+        private void ButtonAdd(object sender, RoutedEventArgs e)//добавление новых элементов
         {
             Add del = new Add(r);
             del.ShowDialog();
@@ -104,8 +104,7 @@ namespace Информационно_справочная_система
             }
             
             contentControl.Content = new UserControlItems(r.ListFotoEquipment.Where(ee => ee is Camera).ToList());
-            contentControl.Content = new UserControlItems(r.ListFotoEquipment.Where(ee => ee is Lens).ToList());
-            contentControl.Content = new UserControlItems(r.ListFotoEquipment.Where(ee => ee is Flash).ToList());
+          
         }
 
         private void serialize_Click(object sender, RoutedEventArgs e)
@@ -130,19 +129,23 @@ namespace Информационно_справочная_система
             if (result == true)
             {
                 filepath = open.FileName;
-                r.Deserialize(filepath);
-                MessageBox.Show("objects were uploaded successfully");
+                try
+                {
+                    r.Deserialize(filepath);
+                    MessageBox.Show("objects were uploaded successfully");
+                }
+                catch { MessageBox.Show("The data's format in the file is incorrect"); }
             }
         }
 
-        private void buttonLogOut_Click(object sender, RoutedEventArgs e)
+        private void buttonLogOut_Click(object sender, RoutedEventArgs e)//выход из системы для смены пользователя
         {
             WindowAuth auth = new WindowAuth();
             auth.Show();
             this.Close();
         }
 
-        private void history_Click(object sender, RoutedEventArgs e)
+        private void history_Click(object sender, RoutedEventArgs e)//история изменений в базе
         {
             MessageBox.Show(story);
         }

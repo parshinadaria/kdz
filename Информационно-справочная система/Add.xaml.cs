@@ -18,7 +18,7 @@ namespace Информационно_справочная_система
     /// <summary>
     /// Interaction logic for Add.xaml
     /// </summary>
-    public partial class Add : Window
+    public partial class Add : Window//окно для переходя к страничной навигации
     {
         Repository r;
         public Add(Repository r)

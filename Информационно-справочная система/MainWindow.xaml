@@ -61,21 +61,16 @@
                 <DropShadowEffect BlurRadius="2" Color="#FF4B83B2" Opacity="0.7" ShadowDepth="4"/>
             </Button.Effect>
         </Button>
-        <Button x:Name="help" Content="?" Grid.Column="3" HorizontalAlignment="Left" Margin="111,10,0,4" VerticalAlignment="Center" Width="29" HorizontalContentAlignment="Center"  Height="26" Foreground="#FFC4E1EA" Background="SteelBlue" FontSize="20" BorderBrush="#FFC4E1EA">
-            <Button.Effect>
-                <DropShadowEffect Color="#FF4578A2"/>
-            </Button.Effect>
 
-        </Button>
         <Frame Name="frameAdd" NavigationUIVisibility="Hidden">
         </Frame>
-        <Button x:Name="button" Content="Log out" Grid.Column="3" HorizontalAlignment="Left" Margin="65,10,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Width="41" Height="26" Click="buttonLogOut_Click" Foreground="#FFC4E1EA" Background="SteelBlue" FontSize="10" BorderBrush="#FFC4E1EA" RenderTransformOrigin="0.571,0.205">
+        <Button x:Name="button" Content="Log out" Grid.Column="3" HorizontalAlignment="Left" Margin="83,10,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Width="57" Height="26" Click="buttonLogOut_Click" Foreground="#FFC4E1EA" Background="SteelBlue" FontSize="15" BorderBrush="#FFC4E1EA" RenderTransformOrigin="0.571,0.205">
             <Button.Effect>
                 <DropShadowEffect Color="#FF4578A2"/>
             </Button.Effect>
 
         </Button>
-        <Button x:Name="history" Content="History" Grid.Column="3" HorizontalAlignment="Left" Margin="8,10,0,4" Width="52" Foreground="#FFC4E1EA" Background="SteelBlue" FontSize="14" BorderBrush="#FFC4E1EA" Click="history_Click">
+        <Button x:Name="history" Content="History" Grid.Column="3" HorizontalAlignment="Left" Margin="10,10,0,4" Width="68" Foreground="#FFC4E1EA" Background="SteelBlue" FontSize="15" BorderBrush="#FFC4E1EA" Click="history_Click" >
             <Button.Effect>
                 <DropShadowEffect Color="#FF4578A2"/>
             </Button.Effect>

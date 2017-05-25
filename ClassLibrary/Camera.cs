@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary
 {
-    public class Camera:FotoEquipment
+    public class Camera:FotoEquipment//дочерний класс, содержит специфический характеристики камер
     {
         private double pixels;
 
-        public double Pixels//mln
+        public double Pixels
         {
             get { return pixels; }
         }
@@ -36,7 +36,7 @@ namespace ClassLibrary
             formatvideo = Formatvideo;
         }
 
-        public override string Info()
+        public override string Info()//переопределение информации об объекте
         {
             return base.Info() + $"Pixels: {Pixels} mln\rMatrix: {Matrix} crop factor\rVideo Format: {Formatvideo}";
         }

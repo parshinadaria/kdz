@@ -10,7 +10,7 @@ namespace ClassLibrary
 {
     public class Repository
     {
-        public void Serialize(List<FotoEquipment> l, string path)
+        public void Serialize(List<FotoEquipment> l, string path)//метод сериализации, запись объектов из репозитория в файл построчно
         {
             string str = JsonConvert.SerializeObject(l);
             using (StreamWriter sw = new StreamWriter(path, false))
@@ -20,19 +20,19 @@ namespace ClassLibrary
         }
 
 
-        public List<FotoEquipment> Deserialize(string path)
+        public List<FotoEquipment> Deserialize(string path)//метод десериализации, добавление объектов из файла
         {
 
             string json = File.ReadAllText(path);
-            if (string.IsNullOrEmpty(json)) { throw new ArgumentException("File is empty"); }
+            if (string.IsNullOrEmpty(json)) { throw new ArgumentException("File is empty"); }//ошибка при пустом выбранном файле
             List<FotoEquipment> l = JsonConvert.DeserializeObject<List<FotoEquipment>>(json);
             ListFotoEquipment.AddRange(l);
             return l;
         }
 
 
-        public List<FotoEquipment> ListFotoEquipment;
-        public void ReadFromFile(string filename)
+        public List<FotoEquipment> ListFotoEquipment;//список объектов
+        public void ReadFromFile(string filename)//метод считывания из файла
         {
             string Line = "";
             StreamReader sr = new StreamReader(filename);
@@ -61,7 +61,7 @@ namespace ClassLibrary
 
 
         }
-        public Repository()
+        public Repository()//первоначальное содержимое репозитория
         {
             ListFotoEquipment = new List<FotoEquipment>();
             ListFotoEquipment.Add(new Camera(21.105, 485, "Japan", "Canon", "1300D", "../../Images/canon1300D.jpeg", 18.7, 1.6, "MOV"));

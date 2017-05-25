@@ -1,0 +1,25 @@
+\\Mac\Home\Desktop\Информационно-справочная система2\ClassLibrary\obj\Debug\ClassLibrary.csprojResolveAssemblyReference.cache
+\\Mac\Home\Desktop\Информационно-справочная система2\ClassLibrary\obj\Debug\ClassLibrary.Properties.Resource.resources
+\\Mac\Home\Desktop\Информационно-справочная система2\ClassLibrary\obj\Debug\ClassLibrary.csproj.GenerateResource.Cache
+\\Mac\Home\Desktop\Информационно-справочная система2\ClassLibrary\bin\Debug\ClassLibrary.dll
+\\Mac\Home\Desktop\Информационно-справочная система2\ClassLibrary\bin\Debug\ClassLibrary.pdb
+\\Mac\Home\Desktop\Информационно-справочная система2\ClassLibrary\obj\Debug\ClassLibrary.dll
+\\Mac\Home\Desktop\Информационно-справочная система2\ClassLibrary\obj\Debug\ClassLibrary.pdb
+\\Mac\Home\Desktop\Информационно-справочная система2\ClassLibrary\bin\Debug\Newtonsoft.Json.dll
+\\Mac\Home\Desktop\Информационно-справочная система2\ClassLibrary\bin\Debug\Newtonsoft.Json.xml
+C:\kdz\Информационно-справочная система2\ClassLibrary\bin\Debug\ClassLibrary.dll
+C:\kdz\Информационно-справочная система2\ClassLibrary\bin\Debug\ClassLibrary.pdb
+C:\kdz\Информационно-справочная система2\ClassLibrary\bin\Debug\Newtonsoft.Json.dll
+C:\kdz\Информационно-справочная система2\ClassLibrary\bin\Debug\Newtonsoft.Json.xml
+C:\kdz\Информационно-справочная система2\ClassLibrary\obj\Debug\ClassLibrary.csprojResolveAssemblyReference.cache
+C:\kdz\Информационно-справочная система2\ClassLibrary\obj\Debug\ClassLibrary.Properties.Resource.resources
+C:\kdz\Информационно-справочная система2\ClassLibrary\obj\Debug\ClassLibrary.csproj.GenerateResource.Cache
+C:\kdz\Информационно-справочная система2\ClassLibrary\obj\Debug\ClassLibrary.dll
+C:\kdz\Информационно-справочная система2\ClassLibrary\obj\Debug\ClassLibrary.pdb
+C:\Users\dariaparshina\Source\Repos\kdz\ClassLibrary\bin\Debug\ClassLibrary.dll
+C:\Users\dariaparshina\Source\Repos\kdz\ClassLibrary\bin\Debug\ClassLibrary.pdb
+C:\Users\dariaparshina\Source\Repos\kdz\ClassLibrary\bin\Debug\Newtonsoft.Json.dll
+C:\Users\dariaparshina\Source\Repos\kdz\ClassLibrary\bin\Debug\Newtonsoft.Json.xml
+C:\Users\dariaparshina\Source\Repos\kdz\ClassLibrary\obj\Debug\ClassLibrary.csprojResolveAssemblyReference.cache
+C:\Users\dariaparshina\Source\Repos\kdz\ClassLibrary\obj\Debug\ClassLibrary.dll
+C:\Users\dariaparshina\Source\Repos\kdz\ClassLibrary\obj\Debug\ClassLibrary.pdb

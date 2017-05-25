@@ -1,0 +1,6 @@
+Guest
+login: guest
+password: 123
+Administrator
+login: admin
+password: 321

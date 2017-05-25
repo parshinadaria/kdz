@@ -60,14 +60,18 @@
     <Compile Include="Add.xaml.cs">
       <DependentUpon>Add.xaml</DependentUpon>
     </Compile>
+    <Compile Include="AddDetailsPage.xaml.cs">
+      <DependentUpon>AddDetailsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AddPage.xaml.cs">
+      <DependentUpon>AddPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Delete.xaml.cs">
       <DependentUpon>Delete.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages.cs" />
     <Compile Include="Search.xaml.cs">
       <DependentUpon>Search.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="UserControlAdd.xaml.cs">
-      <DependentUpon>UserControlAdd.xaml</DependentUpon>
     </Compile>
     <Compile Include="UserControlItems.xaml.cs">
       <DependentUpon>UserControlItems.xaml</DependentUpon>
@@ -79,6 +83,14 @@
       <DependentUpon>WindowAuth.xaml</DependentUpon>
     </Compile>
     <Page Include="Add.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AddDetailsPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AddPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -102,10 +114,6 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="UserControlAdd.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="UserControlItems.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -123,20 +131,11 @@
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
     <None Include="Images\packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -224,6 +223,21 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="equipment.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="extraimages\samsungNX1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="extraimages\lumixGH5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="extraimages\fujifilmGFX.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="extraimages\canon1D.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="extraimages\help.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

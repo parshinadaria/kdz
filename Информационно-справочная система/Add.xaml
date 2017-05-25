@@ -5,7 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Информационно_справочная_система"
         mc:Ignorable="d"
-        Title="Add" Height="120" Width="190">
+               
+         Title="add page navigation" Height="500" Width="910" ResizeMode="NoResize" >
+    <Grid>
+        <Frame Name="frameAdd" NavigationUIVisibility="Hidden">
+
+        </Frame>
+    </Grid>
+</Window>
+
+<!--Title="Add" Height="120" Width="190">
     <Grid>
         <Label x:Name="label" Content="Label" HorizontalAlignment="Left" Margin="32,10,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="32,61,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
@@ -13,4 +22,4 @@
         <Button x:Name="Add1" Content="Add" HorizontalAlignment="Left" Margin="52,217,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-1.348,-0.848" Click="Add_Click"/>
 
     </Grid>
-</Window>
+</Window>-->

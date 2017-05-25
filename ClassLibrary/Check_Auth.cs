@@ -10,11 +10,13 @@ namespace ClassLibrary
     {
         public string checkAuth(string login, string password)
         {
-            string response = "OK";
-            if (!((login== "guest")&&(password== "123"))||((login == "admin") && (password == "321")))
+            bool guestcheck = (login == "guest") & (password == "123");
+            bool admincheck = (login == "admin") & (password == "321");
+            if (!guestcheck&&!admincheck)
             {
-                response = "login or password is not correct";
+                throw new ArgumentException("login or password is not correct");
             }
+            string response = login;
             return response;
         }
     }

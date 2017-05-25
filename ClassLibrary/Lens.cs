@@ -28,6 +28,11 @@ namespace ClassLibrary
             aperture = Aperture;
         }
 
+        public override string Info()
+        {
+            return base.Info() + $"Zoom: x{zoom}\rAperture: {aperture}";
+        }
+
         public override string ToString()
         {
             return "Lens";

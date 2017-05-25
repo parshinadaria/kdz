@@ -50,14 +50,14 @@ namespace Информационно_справочная_система
         private void button_Click(object sender, RoutedEventArgs e)
         {
             answer = new List<string>();
-            string filename = "C:\\kdz\\equipment.txt";
+            string filename = "../../equipment.txt";
             FileStream fl = new FileStream(filename, FileMode.Open, FileAccess.Read);
             StreamReader sr = new StreamReader(fl);
             bool ok = false;
             while (!sr.EndOfStream)
             {
                 string line  = sr.ReadLine();
-                string[] arr = line.Split();//new char[] { ' ' }
+                string[] arr = line.Split();
                 if (arr[4]+" "+arr[5]==comboboxSear.Text)
                 {
                     string str = Info(arr);
@@ -90,14 +90,12 @@ namespace Информационно_справочная_система
 
         public static string InfoLens(string[] arr)
         {
-            return $"Guide number: {arr[6]} \rRotation angle: {arr[7]}°";
+            return $"Zoom: x{arr[6]}\rAperture: {arr[7]}";
         }
 
         public static string InfoFlash(string[] arr)
         {
-            return $"Zoom: x{arr[6]}\rAperture: {arr[7]}";
+            return $"Guide number: {arr[6]} \rRotation angle: {arr[7]}°";
         }
-
-        //<ListBox.ItemTemplate> <DataTemplate DataType = "local:ScheduledEvent" > < Grid Margin="0 5"> Элементы внутри грида</Grid> </DataTemplate> </ListBox.ItemTemplate>
     }
 }

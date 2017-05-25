@@ -8,26 +8,18 @@
              d:DesignHeight="250" d:DesignWidth="300">
     <Grid >
         <Grid.RowDefinitions>
-            <RowDefinition Height="35"/>
+            <RowDefinition Height="4"/>
+            <RowDefinition Height="30" />
             <RowDefinition />
+            <RowDefinition Height="4"/>
         </Grid.RowDefinitions>
-        <Label Name="label" Content="" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="20" Background="#FFD8EAFD"/>
-        <Image Grid.Row="1" Name="image" MouseEnter="canvas_MouseEnter"/>
-
-
-
-        <!--<Image Grid.Row="1" Source="../../Images/canon1300D.jpg"/>
-        <Image.ToolTip>
-            <ToolTip Name="tooltip" Content="" Foreground="Aqua" HasDropShadow="False"/>
-            --><!--<StackPanel Name="tip" Background="MediumBlue"/>-->
-                 
-                <!--<TextBlock> Country: Japan</TextBlock>
-            <TextBlock>Price:</TextBlock>
-            <TextBlock>Weight:</TextBlock>
-            <TextBlock>Company:</TextBlock>-->
-
-            <!--</ToolTip>--><!--
-        </Image.ToolTip>-->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="4"/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="4"/>
+        </Grid.ColumnDefinitions>
+        <Label Name="label" Grid.Row="1" Grid.Column="1" Content="cfgvhjkl" HorizontalContentAlignment="Center" VerticalContentAlignment="Top" FontSize="20" Background="#FFD8EAFD" Foreground="#FF1E3D5D" FontFamily="Impact"/>
+        <Image Grid.Row="2" Grid.Column="1" Name="image" />
 
     </Grid>
 </UserControl>

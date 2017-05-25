@@ -32,10 +32,6 @@ namespace Информационно_справочная_система
                 u.Height = 250;
                 if (i%3==0)
                 {
-                    //FotoEquipment product = list[i];
-                    //UserControlPattern pat = new UserControlPattern();
-                    //pat.insert
-                    //pat.InsertName($"Company: {product.Company}; Model: {product.Model}");
                     StackPanel1.Children.Add(u);
                 }
 

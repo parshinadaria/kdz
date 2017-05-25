@@ -31,68 +31,12 @@ namespace Информационно_справочная_система
             InitializeComponent();
             this.label.Content = f.Company + " " + f.Model;
 
-            
             BitmapImage b = new BitmapImage(new Uri(System.IO.Path.Combine(Environment.CurrentDirectory, f.Photo)));
             image.Source = b;
 
-
-
-            // objinfo.
             objinfo.Content = f.Info();
-            //string[] arr = new string[10] { f.ToString(), f.Price.ToString(), f.Weight.ToString(), f.Country, f.Company, f.Model, "", "", "", "" };
-            //objinfo.Content += Search.Info(arr);
-
-            //if (f.ToString() == "Camera")
-            //{
-            //    Camera c = (Camera)f;
-            //    arr[7] = c.Pixels.ToString();
-            //    arr[8] = c.Matrix.ToString();
-            //    arr[9] = c.Formatvideo;
-            //    objinfo.Content += Search.InfoCamera(arr);
-            //}
-
-            //if (f.ToString() == "Lens")
-            //{
-            //    Lens l = (Lens)f;
-            //    arr[6] = l.Zoom;
-            //    arr[7] = l.Aperture.ToString();
-            //    objinfo.Content += Search.InfoLens(arr);
-            //}
-
-            //if (f.ToString() == "Flash")
-            //{
-            //    Flash fl = (Flash)f;
-            //    arr[6] = fl.Guidenumber.ToString();
-            //    arr[7] = fl.Rotationangle.ToString();
-            //    objinfo.Content += Search.InfoFlash(arr);
-            //}
             image.ToolTip = objinfo;
-
-
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-        public void IsertPic(string source)
-        {
-           
-            ////    Image image = new Image();
-            ////    image.Source = source;
-            ////sp.Children.Add(image);
-        }
-        public void InsertName(string name)
-        {
-            label.Content = name;
-        }
-
-       
-
-        private void canvas_MouseEnter(object sender, MouseEventArgs e)
-        {
-
-            objinfo.IsOpen = true;
+            objinfo.Opacity = 30;
         }
     }
 }

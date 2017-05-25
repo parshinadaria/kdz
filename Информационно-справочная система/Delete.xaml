@@ -5,13 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Информационно_справочная_система"
         mc:Ignorable="d"
-        Title="Delete" Height="120" Width="190" ResizeMode="NoResize" Background="CadetBlue" > 
-<Grid>
+        Title="Delete" Height="120" Width="190" ResizeMode="NoResize" Background="CadetBlue" >
+    <Grid>
         <ComboBox IsEditable="True" x:Name="comboboxDel" Background="AliceBlue" HorizontalAlignment="Left" Height="25" Margin="9,26,0,40" Width="156"/>
         <Label x:Name="label" Content="Enter the name of the model:" HorizontalAlignment="Left" Margin="7,0,0,0" VerticalAlignment="Top"/>
         <Button x:Name="CancelDelete" Content="Cancel"  Background="LightBlue" HorizontalAlignment="Left" Margin="90,63,0,0" VerticalAlignment="Top" Width="75" Click="CancelDelete_Click"/>
         <Button x:Name="DeleteButtton" Content="Delete" Background="LightBlue" HorizontalAlignment="Left" Margin="10,63,0,0" VerticalAlignment="Top" Width="75" Click="Delete_Click"/>
 
-</Grid>
+    </Grid>
 </Window>
 

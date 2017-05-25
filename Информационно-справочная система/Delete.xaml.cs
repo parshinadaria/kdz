@@ -34,24 +34,6 @@ namespace Информационно_справочная_система
 
         private void Delete_Click(object sender, RoutedEventArgs e)
         {
-
-            //string filename = "../";
-            //FileStream fl = new FileStream(filename, FileMode.Open, FileAccess.Read);
-            //StreamReader sr = new StreamReader(fl);
-            //List<string> lines = new List<string>();
-            //while (!sr.EndOfStream)
-            //{
-            //    string line = sr.ReadLine();
-            //    if (line !=  textBox.Text)
-            //    {
-            //        lines.Add(line);
-            //    }
-            //}
-            //sr.Close();
-            //fl.Close();
-            //File.Delete("C:\\kdz\\equipment.txt");
-            //FileStream fl1 = new FileStream("C:\\kdz\\equipment.txt", FileMode.Create, FileAccess.Write);
-            //StreamWriter sw = new StreamWriter(fl1);
             try
             {
                 if (comboboxDel.Text != "")
@@ -59,20 +41,22 @@ namespace Информационно_справочная_система
                     FotoEquipment f = r.ListFotoEquipment.FirstOrDefault(e1 => (e1.Company + " " + e1.Model) == comboboxDel.Text);
                     if (f == null)
                     {
-                        throw new ArgumentException("Данный элемент не найден");
+                        throw new ArgumentException("The item was not found");
                     }
                     else
                     {
                         r.ListFotoEquipment.Remove(f);
+                        MainWindow.story += $"Deleted: {f.ToString()} {f.Company} {f.Model}\r";
                     }
                 }
+                else { MessageBox.Show("Please, choose an item"); }
             }
             catch (ArgumentException e2)
             {
 
                 MessageBox.Show(e2.Message);
             }
-           
+            this.Close();
         }
 
         private void CancelDelete_Click(object sender, RoutedEventArgs e)

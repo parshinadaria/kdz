@@ -28,6 +28,11 @@ namespace ClassLibrary
             rotationangle = Rotationangle;
         }
 
+        public override string Info()
+        {
+            return base.Info() + $"Guide number: {guidenumber} \rRotation angle: {guidenumber}°";
+        }
+
         public override string ToString()
         {
             return "Flash";

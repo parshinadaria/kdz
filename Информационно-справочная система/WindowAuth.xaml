@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Информационно_справочная_система"
         mc:Ignorable="d"
-        Title="WindowAuth" Height="300" Width="450">
-    <Grid>
+        Title="Authorization" Height="300" Width="450" Foreground="AliceBlue" >
+    <Grid Background="Lavender" >
         <Grid.RowDefinitions>
             <RowDefinition/>
             <RowDefinition/>
@@ -14,10 +14,10 @@
             <RowDefinition/>
             <RowDefinition Height="40"/>
         </Grid.RowDefinitions>
-        <Label Content="Enter login" HorizontalContentAlignment="Center" FontSize="25" Background="#FF6391BF"/>
-        <TextBox Name="textBoxLogin" Grid.Row="1" Margin="5" HorizontalContentAlignment="Center" FontSize="25" Background="#FFB7CFE8"/>
-        <Label Content="Enter password" Grid.Row="2" HorizontalContentAlignment="Center" FontSize="25" Background="#FF6391BF"/>
-        <PasswordBox Name="passwordBox" Password=" " Grid.Row="3" Margin="5" HorizontalContentAlignment="Center" FontSize="25" Background="#FFB7CFE8"/>
-        <Button Grid.Row="5" Margin="170,7" HorizontalContentAlignment="Center" Content="Sign in" Click="ButtonSignInClick" Background="#FF78BBFF"/>
+        <Label Content="Enter login" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="25" Foreground="#FFF0FBFF" Background="#FF6391BF" FontFamily="MV Boli"/>
+        <TextBox Name="textBoxLogin" Grid.Row="1" Margin="5" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="25" Background="#FFB7CFE8" FontFamily="Comic Sans MS" BorderBrush="#FF6391BF" Foreground="#FF1E3D5D"/>
+        <Label Content="Enter password" Grid.Row="2" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="25" Background="#FF6391BF" Foreground="#FFF0FBFF" KeyDown="TextBox_KeyDown" FontFamily="Comic Sans MS" />
+        <PasswordBox Name="passwordBox" Grid.Row="3" Margin="5" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="25" Background="#FFB7CFE8" Foreground="#FF1E3D5D" BorderBrush="#FF6391BF" KeyDown="TextBox_KeyDown"/>
+        <Button Grid.Row="5" Margin="170,7" HorizontalContentAlignment="Center" Content="Sign in" VerticalContentAlignment="Center" Click="ButtonSignInClick" Foreground="#FFF0FBFF" Background="SteelBlue" FontFamily="Comic Sans MS" BorderBrush="{x:Null}"/>
     </Grid>
 </Window>

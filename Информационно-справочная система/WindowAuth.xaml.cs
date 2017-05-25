@@ -24,97 +24,59 @@ namespace Информационно_справочная_система
         public WindowAuth()
         {
             InitializeComponent();
+            textBoxLogin.Focus();
         }
 
         private void ButtonSignInClick(object sender, RoutedEventArgs e)
         {
-            //string login = textBoxLogin.Text;
-            //string password = passwordBox.Password;
-            //if (login == "guest")
-            //{
-            //    if (password == "1234")
-            //    {
-            //        MainWindow M = new MainWindow(false);
-            //        M.Show();
-            //        this.Close();
-            //    }
-            //    else
-            //    {
-            //        MessageBox.Show("Wrong password", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
-            //    }
-            //}
-            //else if (login == "admin")
-            //{
-            //    if (password == "12345")
-            //    {
-            //        MainWindow M = new MainWindow(true);
-            //        M.Show();
-            //        this.Close();
-            //    }
-            //}
-            //else
-            //{
-            //    MessageBox.Show("Wrong login");
-            //}
 
-
-            Check_Auth c = new Check_Auth();
-            if (!string.IsNullOrEmpty(textBoxLogin.Text))
+            try
             {
-                string response = c.checkAuth(textBoxLogin.Text, passwordBox.Password);
-                if (!response.Equals("OK"))
+
+                Check_Auth c = new Check_Auth();
+                if (!string.IsNullOrEmpty(textBoxLogin.Text))
                 {
-                    MessageBox.Show(response);
-                }
-                else
-                {
-                    try
+                    MainWindow M;
+                    string response = c.checkAuth(textBoxLogin.Text, passwordBox.Password);
+                    if (response == "admin")
                     {
-                        if (textBoxLogin.Text == "guest")
-                        {
-                            if (passwordBox.Password == "1234")
-                            {
-                                MainWindow M = new MainWindow(false);
-                                M.Show();
-                                this.Close();
-                            }
-                            //else
-                            //{
-                            //    MessageBox.Show("Wrong password", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
-                            //}
-                        }
-                        else if (textBoxLogin.Text == "admin")
-                        {
-                            if (passwordBox.Password == "12345")
-                            {
-                                MainWindow M = new MainWindow(true);
-                                M.Show();
-                                this.Close();
-                            }
-                        }
-                        //else
-                        //{
-                        //    MessageBox.Show("Wrong login");
-                        //}
-
-                        //MainWindow M = new MainWindow();
-                        // M.Show();
-                        //this.Close();
+                        M = new MainWindow(true);
                     }
-                    catch (FormatException)
+                    else
                     {
-
-                        MessageBox.Show("incorrect format");
+                        M = new MainWindow(false);
                     }
-                    catch (IOException)
-                    {
-                        MessageBox.Show("file was not found");
-                    }
-
+                    M.Show();
+                    Close();
                 }
             }
+            catch (FormatException)
+            {
 
+                MessageBox.Show("incorrect format");
+            }
+            catch (IOException)
+            {
+                MessageBox.Show("file was not found");
+            }
+            catch (ArgumentException e1)
+            {
+                MessageBox.Show(e1.Message);
+            }
 
         }
+
+        private void TextBox_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Enter)
+            {
+                if (e.Key == Key.Enter)
+                    ButtonSignInClick(null, null);
+            }
+        }
     }
+
+
 }
+
+

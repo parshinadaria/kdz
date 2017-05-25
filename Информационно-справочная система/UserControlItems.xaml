@@ -8,7 +8,7 @@
              d:DesignHeight="460" d:DesignWidth="900" Background="#FFFBF4F4">
    
         <ScrollViewer PanningMode="VerticalOnly" VerticalScrollBarVisibility="Hidden" Grid.ColumnSpan="3">
-        <Grid>
+        <Grid Background="White">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
                 <ColumnDefinition/>
